@@ -26,6 +26,8 @@ def display_result(squared_numbers):
 def square_numbers():
     numbers = get_user_input()
     squared_numbers = process_input(numbers)
+    print('something goes here')
+    print('something goes there')
     return display_results(square_numbers)
 
 if __name__ == '__main__':

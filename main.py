@@ -16,6 +16,7 @@ def process_input(numbers):
     else:
         return None
 
+
 def display_result(squared_numbers):
     if squared_numbers:
         return jsonify({'squared_numbers': squared_numbers}), 200

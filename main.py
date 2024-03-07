@@ -30,6 +30,7 @@ def square_numbers():
     print('something goes there')
     print('something goes there')
     print('something goes there')
+    print('something goes there')
     return display_results(square_numbers)
 
 if __name__ == '__main__':

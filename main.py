@@ -16,7 +16,6 @@ def process_input(numbers):
     else:
         return None
 
-
 def display_result(squared_numbers):
     if squared_numbers:
         return jsonify({'squared_numbers': squared_numbers}), 200
@@ -27,7 +26,7 @@ def display_result(squared_numbers):
 def square_numbers():
     numbers = get_user_input()
     squared_numbers = process_input(numbers)
-    
+    return display_results(square_numbers)
 
 if __name__ == '__main__':
     app.run(debug=True)
